@@ -51,7 +51,7 @@ class _AddCustomerState extends State<AddCustomer> {
                       shape: BoxShape.circle,
                     ),
                     child: const Center(
-                      child: TextBuilder(text: 'Logo'),
+                      child: TextBuilder(text:  'Logo'),
                     ),
                   ),
                   const Column(
