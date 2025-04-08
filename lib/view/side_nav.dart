@@ -76,6 +76,7 @@ class _SideNavState extends State<SideNav> {
                 ),
                 ListTile(
                   onTap: () {
+
                     Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (_) => const Splash()), (route) => false);
                   },
                   leading: const Icon(

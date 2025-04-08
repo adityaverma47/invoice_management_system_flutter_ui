@@ -26,11 +26,12 @@ class _MainViewState extends State<MainView> {
         elevation: 0.0,
         backgroundColor: Colors.white,
         title: const TextBuilder(
-          text: 'Invoice Management UI',
+          text: 'Invoice Management',
           color: Colors.black,
         ),
       ),
       drawer: const SideNav(),
+
       body: tabs[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.black,
