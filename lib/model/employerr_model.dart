@@ -1,5 +1,6 @@
 class EmployeeModel {
   final String? title;
+
   final String? subTitle;
 
   final String? trailing;
