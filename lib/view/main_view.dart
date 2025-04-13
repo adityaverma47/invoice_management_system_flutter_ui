@@ -24,6 +24,7 @@ class _MainViewState extends State<MainView> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
+
         backgroundColor: Colors.white,
         title: const TextBuilder(
           text: 'Invoice Management',
